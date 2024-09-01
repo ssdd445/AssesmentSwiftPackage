@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -13,9 +13,12 @@ let package = Package(
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies. 
-        .target(
-            name: "AssessmentSwiftPackage"),
+        // Targets can depend on other targets in this package and products from dependencies.
+        .binaryTarget(
+            name: "SampleFrameTester",
+            path: "./Sources/FrameworkHere/SampleFrameTester.xcframework"
+        ),
+        .target(name: "AssessmentSwiftPackage"),
         .testTarget(
             name: "AssessmentSwiftPackageTests",
             dependencies: ["AssessmentSwiftPackage"]),

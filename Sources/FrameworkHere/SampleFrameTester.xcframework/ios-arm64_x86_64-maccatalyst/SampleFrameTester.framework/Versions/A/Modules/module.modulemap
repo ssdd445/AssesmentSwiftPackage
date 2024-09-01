@@ -1,0 +1,6 @@
+framework module SampleFrameTester {
+  umbrella header "SampleFrameTester.h"
+  export *
+
+  module * { export * }
+}

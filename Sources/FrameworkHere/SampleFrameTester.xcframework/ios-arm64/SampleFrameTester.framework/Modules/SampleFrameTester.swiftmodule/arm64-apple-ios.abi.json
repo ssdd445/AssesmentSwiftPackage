@@ -1,0 +1,907 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleFrameTester"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Floor",
+        "printedName": "Floor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Floor",
+                "printedName": "SampleFrameTester.Floor",
+                "usr": "s:17SampleFrameTester5FloorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SampleFrameTester5FloorV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17SampleFrameTester5FloorV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester5FloorV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17SampleFrameTester5FloorV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17SampleFrameTester5FloorV",
+        "mangledName": "$s17SampleFrameTester5FloorV",
+        "moduleName": "SampleFrameTester",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleFrameTester"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Building",
+        "printedName": "Building",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Building",
+                "printedName": "SampleFrameTester.Building",
+                "usr": "s:17SampleFrameTester8BuildingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SampleFrameTester8BuildingV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17SampleFrameTester8BuildingV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester8BuildingV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17SampleFrameTester8BuildingV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17SampleFrameTester8BuildingV",
+        "mangledName": "$s17SampleFrameTester8BuildingV",
+        "moduleName": "SampleFrameTester",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SampleFrameTester"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleFrameTester"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BuildingProviderProtocol",
+        "printedName": "BuildingProviderProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "listAvailableTimes",
+            "printedName": "listAvailableTimes(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Building",
+                "printedName": "SampleFrameTester.Building",
+                "usr": "s:17SampleFrameTester8BuildingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester24BuildingProviderProtocolP18listAvailableTimes4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "mangledName": "$s17SampleFrameTester24BuildingProviderProtocolP18listAvailableTimes4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "moduleName": "SampleFrameTester",
+            "genericSig": "<τ_0_0 where τ_0_0 : SampleFrameTester.BuildingProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : SampleFrameTester.BuildingProviderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listMeetingRooms",
+            "printedName": "listMeetingRooms(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Building",
+                "printedName": "SampleFrameTester.Building",
+                "usr": "s:17SampleFrameTester8BuildingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester24BuildingProviderProtocolP16listMeetingRooms4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "mangledName": "$s17SampleFrameTester24BuildingProviderProtocolP16listMeetingRooms4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "moduleName": "SampleFrameTester",
+            "genericSig": "<τ_0_0 where τ_0_0 : SampleFrameTester.BuildingProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : SampleFrameTester.BuildingProviderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listFloors",
+            "printedName": "listFloors(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<[Swift.String], Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Building",
+                "printedName": "SampleFrameTester.Building",
+                "usr": "s:17SampleFrameTester8BuildingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester24BuildingProviderProtocolP10listFloors4from7Combine12AnyPublisherVySaySSGs5NeverOGAA0D0V_tF",
+            "mangledName": "$s17SampleFrameTester24BuildingProviderProtocolP10listFloors4from7Combine12AnyPublisherVySaySSGs5NeverOGAA0D0V_tF",
+            "moduleName": "SampleFrameTester",
+            "genericSig": "<τ_0_0 where τ_0_0 : SampleFrameTester.BuildingProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : SampleFrameTester.BuildingProviderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchBuildingData",
+            "printedName": "fetchBuildingData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<SampleFrameTester.Building, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Building",
+                    "printedName": "SampleFrameTester.Building",
+                    "usr": "s:17SampleFrameTester8BuildingV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester24BuildingProviderProtocolP05fetchD4Data7Combine12AnyPublisherVyAA0D0Vs5Error_pGyF",
+            "mangledName": "$s17SampleFrameTester24BuildingProviderProtocolP05fetchD4Data7Combine12AnyPublisherVyAA0D0Vs5Error_pGyF",
+            "moduleName": "SampleFrameTester",
+            "genericSig": "<τ_0_0 where τ_0_0 : SampleFrameTester.BuildingProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : SampleFrameTester.BuildingProviderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17SampleFrameTester24BuildingProviderProtocolP",
+        "mangledName": "$s17SampleFrameTester24BuildingProviderProtocolP",
+        "moduleName": "SampleFrameTester",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BuildingProvider",
+        "printedName": "BuildingProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BuildingProvider",
+                "printedName": "SampleFrameTester.BuildingProvider",
+                "usr": "s:17SampleFrameTester16BuildingProviderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SampleFrameTester16BuildingProviderCACycfc",
+            "mangledName": "$s17SampleFrameTester16BuildingProviderCACycfc",
+            "moduleName": "SampleFrameTester",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "listAvailableTimes",
+            "printedName": "listAvailableTimes(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Building",
+                "printedName": "SampleFrameTester.Building",
+                "usr": "s:17SampleFrameTester8BuildingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester16BuildingProviderC18listAvailableTimes4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "mangledName": "$s17SampleFrameTester16BuildingProviderC18listAvailableTimes4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "moduleName": "SampleFrameTester",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listMeetingRooms",
+            "printedName": "listMeetingRooms(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Building",
+                "printedName": "SampleFrameTester.Building",
+                "usr": "s:17SampleFrameTester8BuildingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester16BuildingProviderC16listMeetingRooms4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "mangledName": "$s17SampleFrameTester16BuildingProviderC16listMeetingRooms4from7Combine12AnyPublisherVySDySSSaySSGGs5NeverOGAA0D0V_tF",
+            "moduleName": "SampleFrameTester",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listFloors",
+            "printedName": "listFloors(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<[Swift.String], Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Building",
+                "printedName": "SampleFrameTester.Building",
+                "usr": "s:17SampleFrameTester8BuildingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester16BuildingProviderC10listFloors4from7Combine12AnyPublisherVySaySSGs5NeverOGAA0D0V_tF",
+            "mangledName": "$s17SampleFrameTester16BuildingProviderC10listFloors4from7Combine12AnyPublisherVySaySSGs5NeverOGAA0D0V_tF",
+            "moduleName": "SampleFrameTester",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchDataFromCache",
+            "printedName": "fetchDataFromCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SampleFrameTester.Building?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Building",
+                    "printedName": "SampleFrameTester.Building",
+                    "usr": "s:17SampleFrameTester8BuildingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester16BuildingProviderC18fetchDataFromCacheAA0D0VSgyF",
+            "mangledName": "$s17SampleFrameTester16BuildingProviderC18fetchDataFromCacheAA0D0VSgyF",
+            "moduleName": "SampleFrameTester",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchBuildingData",
+            "printedName": "fetchBuildingData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<SampleFrameTester.Building, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Building",
+                    "printedName": "SampleFrameTester.Building",
+                    "usr": "s:17SampleFrameTester8BuildingV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester16BuildingProviderC05fetchD4Data7Combine12AnyPublisherVyAA0D0Vs5Error_pGyF",
+            "mangledName": "$s17SampleFrameTester16BuildingProviderC05fetchD4Data7Combine12AnyPublisherVyAA0D0Vs5Error_pGyF",
+            "moduleName": "SampleFrameTester",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17SampleFrameTester16BuildingProviderC",
+        "mangledName": "$s17SampleFrameTester16BuildingProviderC",
+        "moduleName": "SampleFrameTester",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BuildingProviderProtocol",
+            "printedName": "BuildingProviderProtocol",
+            "usr": "s:17SampleFrameTester24BuildingProviderProtocolP",
+            "mangledName": "$s17SampleFrameTester24BuildingProviderProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleFrameTester"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Availability",
+        "printedName": "Availability",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Availability",
+                "printedName": "SampleFrameTester.Availability",
+                "usr": "s:17SampleFrameTester12AvailabilityV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SampleFrameTester12AvailabilityV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17SampleFrameTester12AvailabilityV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester12AvailabilityV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17SampleFrameTester12AvailabilityV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17SampleFrameTester12AvailabilityV",
+        "mangledName": "$s17SampleFrameTester12AvailabilityV",
+        "moduleName": "SampleFrameTester",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleFrameTester"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Room",
+        "printedName": "Room",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Room",
+                "printedName": "SampleFrameTester.Room",
+                "usr": "s:17SampleFrameTester4RoomV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SampleFrameTester4RoomV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17SampleFrameTester4RoomV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SampleFrameTester4RoomV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17SampleFrameTester4RoomV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SampleFrameTester",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17SampleFrameTester4RoomV",
+        "mangledName": "$s17SampleFrameTester4RoomV",
+        "moduleName": "SampleFrameTester",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/saudtemp\/SampleFrameTester\/SampleFrameTester\/BuildingProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5608,
+      "length": 62,
+      "value": "\"https:\/\/run.mocky.io\/v3\/2c145752-99d8-43f7-9da4-785d12c4e8ff\""
+    }
+  ]
+}

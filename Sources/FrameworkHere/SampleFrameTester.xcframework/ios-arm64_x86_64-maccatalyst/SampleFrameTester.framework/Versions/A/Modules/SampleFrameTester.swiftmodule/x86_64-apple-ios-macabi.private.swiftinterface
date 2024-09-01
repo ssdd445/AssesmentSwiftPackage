@@ -1,0 +1,41 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios17.5-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SampleFrameTester
+import Combine
+import Foundation
+@_exported import SampleFrameTester
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Floor : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Building : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol BuildingProviderProtocol {
+  func listAvailableTimes(from building: SampleFrameTester.Building) -> Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>
+  func listMeetingRooms(from building: SampleFrameTester.Building) -> Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>
+  func listFloors(from building: SampleFrameTester.Building) -> Combine.AnyPublisher<[Swift.String], Swift.Never>
+  func fetchBuildingData() -> Combine.AnyPublisher<SampleFrameTester.Building, any Swift.Error>
+}
+final public class BuildingProvider : SampleFrameTester.BuildingProviderProtocol {
+  public init()
+  final public func listAvailableTimes(from building: SampleFrameTester.Building) -> Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>
+  final public func listMeetingRooms(from building: SampleFrameTester.Building) -> Combine.AnyPublisher<[Swift.String : [Swift.String]], Swift.Never>
+  final public func listFloors(from building: SampleFrameTester.Building) -> Combine.AnyPublisher<[Swift.String], Swift.Never>
+  final public func fetchDataFromCache() -> SampleFrameTester.Building?
+  final public func fetchBuildingData() -> Combine.AnyPublisher<SampleFrameTester.Building, any Swift.Error>
+  @objc deinit
+}
+public struct Availability : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Room : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
