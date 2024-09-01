@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/SampleFrameTester.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Hkb75ImguOQ01oS9pBmyv6d1HMI=
+		rsjwIjG5arKRQ06WiwCaubQf7hU=
 		</data>
 		<key>Modules/SampleFrameTester.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SampleFrameTester.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Hkb75ImguOQ01oS9pBmyv6d1HMI=
+		rsjwIjG5arKRQ06WiwCaubQf7hU=
 		</data>
 		<key>Modules/SampleFrameTester.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cjFmIzZbmA+S7fx/ZvKCZa6Vk6k/Sy3+IbS5hdp+mQI=
+			kTrf18O1V3D3cNLiLpwt5rXj9eaNEM9TfcG9HeHV8mY=
 			</data>
 		</dict>
 		<key>Modules/SampleFrameTester.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cjFmIzZbmA+S7fx/ZvKCZa6Vk6k/Sy3+IbS5hdp+mQI=
+			kTrf18O1V3D3cNLiLpwt5rXj9eaNEM9TfcG9HeHV8mY=
 			</data>
 		</dict>
 		<key>Modules/SampleFrameTester.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
