@@ -5,11 +5,14 @@ import PackageDescription
 
 let package = Package(
     name: "AssessmentSwiftPackage",
+    platforms: [
+        .macOS(.v12), .iOS(.v15)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "AssessmentSwiftPackage",
-            targets: ["AssessmentSwiftPackage"]),
+            name: "SampleFrameTester",
+            targets: ["SampleFrameTester"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -17,10 +20,6 @@ let package = Package(
         .binaryTarget(
             name: "SampleFrameTester",
             path: "./Sources/FrameworkHere/SampleFrameTester.xcframework"
-        ),
-        .target(name: "AssessmentSwiftPackage"),
-        .testTarget(
-            name: "AssessmentSwiftPackageTests",
-            dependencies: ["AssessmentSwiftPackage"]),
+        )
     ]
 )
