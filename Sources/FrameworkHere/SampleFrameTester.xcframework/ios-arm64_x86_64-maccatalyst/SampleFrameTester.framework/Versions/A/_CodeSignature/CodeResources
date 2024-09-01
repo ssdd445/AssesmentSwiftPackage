@@ -8,10 +8,6 @@
 		<data>
 		C8eCapHnNvWFVfKxyNI/eKFiYvE=
 		</data>
-		<key>Resources/staticJsonData.json</key>
-		<data>
-		AQwgVImOF/OZAnPf2PTNL1FFgX0=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -26,7 +22,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/k6qbb1QaOxzZ0TPzZgqZoo2W4r+5CsNetBRjNttskY=
+			cjFmIzZbmA+S7fx/ZvKCZa6Vk6k/Sy3+IbS5hdp+mQI=
 			</data>
 		</dict>
 		<key>Modules/SampleFrameTester.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
@@ -61,7 +57,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/k6qbb1QaOxzZ0TPzZgqZoo2W4r+5CsNetBRjNttskY=
+			cjFmIzZbmA+S7fx/ZvKCZa6Vk6k/Sy3+IbS5hdp+mQI=
 			</data>
 		</dict>
 		<key>Modules/SampleFrameTester.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
@@ -104,13 +100,6 @@
 			<key>hash2</key>
 			<data>
 			t7lEHV+Ty48tEi/9tKutE+TryIhO1vXciJiyD69wZpA=
-			</data>
-		</dict>
-		<key>Resources/staticJsonData.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			c0E/HSxQQUc5ma6T7BslTN5t1KfyObrTEDXEs5iIvME=
 			</data>
 		</dict>
 	</dict>

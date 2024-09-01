@@ -899,7 +899,7 @@
     {
       "filePath": "\/Users\/saudtemp\/SampleFrameTester\/SampleFrameTester\/BuildingProvider.swift",
       "kind": "StringLiteral",
-      "offset": 5608,
+      "offset": 5681,
       "length": 62,
       "value": "\"https:\/\/run.mocky.io\/v3\/2c145752-99d8-43f7-9da4-785d12c4e8ff\""
     }
