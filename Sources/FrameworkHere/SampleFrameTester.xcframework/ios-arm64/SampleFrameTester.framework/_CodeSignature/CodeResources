@@ -36,6 +36,10 @@
 		<data>
 		MbB4+udV6fCh4+2CgZYKvcQaOjQ=
 		</data>
+		<key>staticJsonData.json</key>
+		<data>
+		AQwgVImOF/OZAnPf2PTNL1FFgX0=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -86,6 +90,13 @@
 			<key>hash2</key>
 			<data>
 			14WuCwwZI/Ec1ZwCvwUHUPJO5CjCya5Wqf5iKoARhm0=
+			</data>
+		</dict>
+		<key>staticJsonData.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c0E/HSxQQUc5ma6T7BslTN5t1KfyObrTEDXEs5iIvME=
 			</data>
 		</dict>
 	</dict>
